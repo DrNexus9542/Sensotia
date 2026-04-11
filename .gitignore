@@ -1,0 +1,5 @@
+# j'évite d'enregistrer mes fichiers temporaires :
+copy-from-original/
+
+# Au cas où j'aurais un jour des variables d'environnement :
+*.env
