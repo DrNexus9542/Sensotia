@@ -1,0 +1,7 @@
+#rouge {height: 100px; width: 100px; background-color: red;} 
+#bleu {height: 100px; width: 100px; background-color: blue;} 
+#blanc {height: 100px; width: 100px; background-color: white;}
+.drapeau {justify-content: center; display:flex;}
+body {justify-content: center; text-align: center;}
+footer {justify-content: center; text-align: center;}
+header {justify-content: center; text-align: center;}
