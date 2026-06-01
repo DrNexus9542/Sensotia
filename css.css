@@ -1,9 +1,0 @@
-#rouge {height: 100px; width: 100px; background-color: red;} 
-#bleu {height: 100px; width: 100px; background-color: blue;} 
-#blanc {height: 100px; width: 100px; background-color: white;}
-header {text-align: center; color: aliceblue; align-items: center;}
-.drapeau {display:flex; align-items: center;}
-body {justify-content: center; text-align: center; padding: 3px; border-radius: 10px; width: fit-content; display:flex; color: aliceblue; align-items: center;}
-p {background-color: rgba(33,37,41); padding: 3px; border-radius: 10px; width: fit-content; display:flex; align-items: center; color: aliceblue;}
-a {background-color: rgba(33,37,41); padding: 3px; border-radius: 10px; width: fit-content; display:flex; align-items: center;color: aliceblue;}
-footer {background-color: rgba(33,37,41); padding: 3px; border-radius: 10px; width: fit-content; display:flex; align-items: center;color: aliceblue;}
