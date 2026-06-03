@@ -35,17 +35,6 @@ a {
     text-decoration: none;     /* underlines nuh hu */
     margin: 0;                 /* marges paragraphs */
 }
-p {
-    background-color: rgba(33, 37, 41, 0.9);
-    padding: 10px 20px;
-    border-radius: 10px;
-    width: fit-content;
-    display: inline-flex;
-    align-items: center;
-    color: aliceblue;
-    text-decoration: none;     /* underlines nuh hu */
-    margin: 0;                 /* marges paragraphs */
-}
 
 /* hover */
 a:hover {
@@ -87,3 +76,14 @@ input[type="search"] {
     display: flex;
     justify-content: space-between;
 }
+.texte {padding: 0px 250px 0px 250px;
+background-color: rgba(33, 37, 41, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;     /* underlines nuh hu */
+    margin: 0;}
+code {font-family: JetBrains Mono;}
