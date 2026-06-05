@@ -6,10 +6,14 @@ padding: 0px 250px 0px 250px;
 display: block;
 }
 
-.text {background-color: rgba(33, 37, 41, 0.9);
+.text {
+background-color: rgba(33, 37, 41, 0.9);
 border-radius: 10px 10px 0 0;
 padding: 5px;
 color: aliceblue;
+height: fit-content;
+width: fit-content;
+text-align: center;
 }
 
 footer {background-color: rgba(33, 37, 41, 0.9);
