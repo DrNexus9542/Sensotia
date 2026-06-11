@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_3.5.css"/>
+    <title>Chapitre 3 : La Propriété (Ownership) : Partie 5 : La durée de vie</title>
+</head>
+<body>
+    <header>
+        <input type="search">
+    </header>
+    <h1>
+        3.5 : La durée de vie
+    </h1>
+    <div class='text'>
+Les références ne doivent jamais pointer vers du vide. Rust vérifie cela avec les durées de vie (lifetimes). La plupart du temps, le compilateur devine tout seul. Parfois, il faut l'aider avec une annotation comme <'a>. Cela signifie : "la référence renvoyée vit au moins aussi longtemps que les références entrées". C'est un concept avancé, mais comprends l'idée : Rust interdit de renvoyer une référence vers une variable locale qui disparaît à la fin de la fonction. Il protège contre les pointeurs pendouillants dès la compilation
+    </div>
+</body>
+    <footer>
+        <div class="test">
+        <a href="rust 3.4.html" class="bouton1">
+            precedant
+        </a>
+        <a href="rust 4.1.html" class="bouton2">
+            suivant
+        </a>
+        </div>
+    </footer>
+</html>
