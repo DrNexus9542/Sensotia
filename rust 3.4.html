@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_3.4.css"/>
+    <title>Chapitre 3 : La Propriété (Ownership) : Partie 4 : L'emprunt mutable</title>
+</head>
+<body>
+    <header>
+        <input type="search">
+    </header>
+    <h1>
+        3.4 L'emprunt mutable
+    </h1>
+    <div class='text'>
+Parfois, une fonction doit modifier la donnée sans la posséder. Utilise &mut pour un emprunt mutable. Tu écris fn ajouter_titre(s: &mut String) { s.push_str(" !"); }. La règle est stricte : tu ne peux avoir qu'un seul emprunt mutable à la fois sur une même donnée, et il ne peut pas coexister avec des emprunts immuables. Cela prévient les lectures de données en cours de modification. C'est ce qui permet à Rust d'être sûr sans ralentir ton programme avec des vérifications au moment de l'exécution.
+</body>
+    <footer>
+        <div class="test">
+        <a href="rust 3.3.html" class="bouton1">
+            precedant
+        </a>
+        <a href="rust 3.5.html" class="bouton2">
+            suivant
+        </a>
+        </div>
+    </footer>
+</html>

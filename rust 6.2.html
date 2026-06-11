@@ -11,7 +11,7 @@
         <input type="search">
     </header>
     <h1>
-        3.1 La règle d'or
+        3.1 : La règle d'or
     </h1>
     <div class='text'>
 Rust gère la mémoire automatiquement sans garbage collector grâce au ownership. La règle est simple : chaque donnée a un propriétaire unique. Quand le propriétaire disparaît (sort des accolades), la mémoire est libérée instantanément. Cela évite les fuites. Si tu donnes ta donnée à une autre variable, tu la déplaces : l'ancienne n'y a plus accès. Cela paraît brutal, mais c'est ce qui évite les accès invalides et double libération mémoire. Le compilateur vérifie tout cela.

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_3.2.css"/>
+    <title>Chapitre 3 : La Propriété (Ownership) : Partie 2 : Déplacer et copier</title>
+</head>
+<body>
+    <header>
+        <input type="search">
+    </header>
+    <h1>
+        3.2 Déplacer et copier
+    </h1>
+    <div class='text'>
+Quand tu écris let s1 = String::from("hello"); puis let s2 = s1;, la valeur est déplacée. s1 n'est plus utilisable. Cela s'appelle un move. En revanche, les types simples comme i32, bool ou f64 implémentent le trait Copy : ils sont dupliqués automatiquement et les deux variables restent valides. Pour garder s1 utilisable avec un String, il faudra cloner explicitement avec .clone(), ce qui copie vraiment les données en mémoire. Choisir entre move et clone évite les copies surprises.
+    </div>
+</body>
+    <footer>
+        <div class="test">
+        <a href="rust 3.1.html" class="bouton1">
+            precedant
+        </a>
+        <a href="rust 3.3.html" class="bouton2">
+            suivant
+        </a>
+        </div>
+    </footer>
+</html>

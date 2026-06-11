@@ -49,6 +49,24 @@ color: aliceblue;
 footer {
 padding: 5px;
 color: aliceblue;
-display: flex;
-justify-content: center;
+text-align: center;
 }
+.drapeau {border-radius: 0px; display: flex; justify-content: center;}
+#bleu { height: 100px; 
+width: 100px; 
+background-color: blue; 
+border-radius: 0px;
+} 
+
+#blanc { height: 100px; 
+width: 100px; 
+background-color: white; 
+border-radius: 0px;
+}
+
+#rouge { height: 100px; 
+width: 100px; 
+background-color: red; 
+border-radius: 0px;
+}
+h1{text-align: center;}
